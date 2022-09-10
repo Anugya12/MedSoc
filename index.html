@@ -1,37 +1,122 @@
 <!DOCTYPE html>
+<!-- Created By sugyani -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedSoc</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> MedSoc</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
-    <body class="page-top">
-        <header class="header">
-          <a class="logo" href=".page-top">MedSoc</a>
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-          <ul class="menu">
-            <li><a href="#one" class="link link-theme link-arrow">HOME</a></li>
-            <li><a href="#two" class="link link-theme link-arrow">SERVICE <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown">
-                    <li><a href="appoint.html">ONLINE APPOINTMENT</a></li>
-                    
-                </ul>
-            </li>
-            <li><a href="#three" class="link link-theme link-arrow">ABOUT US</a></li>
-            <li><a href="#four" class="link link-theme link-arrow">CONTACT</a></li>
-          </ul>
-        </header>
-      
-        <div>
-    
-        
+
+<body>
+  <!-- banner -->
+  <div class="container">
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img1.png"></div>
+        <div class="swiper-slide"><img src="img2.png"></div>
+        <div class="swiper-slide"><img src="img3.png"></div>
+        <div class="swiper-slide"><img src="img4.png"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
 
 
-    <script href="script.js"></script>
+  <!-- Header -->
+  <div class="header">
+    <h1>Book your Appointment</h1>
+    <p>Explore MedSoc and get connected with experienced doctors online!!!</p>
+  </div>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="rose">Cardiology</span>
+        <span class="item" data-name="jasmine">Neurology</span>
+        <span class="item" data-name="lotus">Orthopedic</span>
+        <span class="item" data-name="sunflower">surgery</span>
+        <span class="item" data-name="daisy">Ginning</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="rose"><span><img src="photo.png" alt="rose flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="photo.png" alt="jasmine flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="photo.png" alt="lotus flower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="photo.png" alt="sunflower flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="photo.png" alt="daisyflower"></span></div>
+      <div class="image" data-name="rose"><span><img src="photo.png" alt="rose flower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="photo.png" alt="sunflower flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="photo.png" alt="lotus flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="photo.png" alt="jasmine flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="photo.png" alt="daisy flower"></span></div>
+      <div class="image" data-name="rose"><span><img src="photo.png" alt="rose flower"></span></div>
+      <div class="image" data-name="rose"><span><img src="photo.png" alt="rose flower"></span></div>
+      <div class="image" data-name="rose"><span><img src="photo.png" alt="rose flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="photo.png" alt="jasmine flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="photo.png" alt="jasmine flower"></span></div>
+      <div class="image" data-name="jasmine"><span><img src="photo.png" alt="jasmine flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="photo.png" alt="lotus flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="photo.png" alt="lotus flower"></span></div>
+      <div class="image" data-name="lotus"><span><img src="photo.png" alt="lotus flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="photo.png" alt="daisyflower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="photo.png" alt="daisy flower"></span></div>
+      <div class="image" data-name="daisy"><span><img src="photo.png" alt="daisyflower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="photo.png" alt="sunflower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="photo.png" alt="sunflower"></span></div>
+      <div class="image" data-name="sunflower"><span><img src="photo.png" alt="sunflower"></span></div>
+
+    </div>
+
+  </div>
+  <div class="end">
+    <h2>Visit our website MedSoc and get all your health issues solved within minutes.... </h2>
+
+  </div>
+
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    // banner
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    });
+  </script>
+
 </body>
+
 </html>
