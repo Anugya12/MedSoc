@@ -396,5 +396,9 @@ background: transparent;
   margin-top: 1rem ;
   word-spacing: 3px;
   font-size: large;
-  
+}
+.up{
+  padding-left: 4rem;
+  margin-top: 0;
+  padding-top: 0;
 }
