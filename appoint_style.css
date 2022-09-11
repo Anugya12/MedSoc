@@ -13,15 +13,13 @@
   }
   .end{
     text-align: center;
-    text-decoration-color:pink;
     padding-bottom: 50px;
   
   }
   .header {
       text-align: center;
       padding: 32px;
-      text-decoration-color:darkgreen;
-  
+      color: darkgreen;
   }
   
   .wrapper{
