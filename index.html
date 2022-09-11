@@ -7,7 +7,7 @@
     <title>MedSoc</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
     <body class="page-top">
         <header class="header">
@@ -26,12 +26,51 @@
             <li><a href="#four" class="link link-theme link-arrow">CONTACT</a></li>
           </ul>
         </header>
-      
+      <!-- banner -->
+  <div class="container">
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img1.png"></div>
+        <div class="swiper-slide"><img src="img2.png"></div>
+        <div class="swiper-slide"><img src="img3.png"></div>
+        <div class="swiper-slide"><img src="img4.png"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
         <div>
     
         
 
 
     <script href="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        // banner
+        const swiper = new Swiper('.swiper', {
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          loop: true,
+    
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+    
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+    
+        });
+      </script>
+    
 </body>
 </html>
