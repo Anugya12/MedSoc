@@ -9,6 +9,9 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+:root{
+	--primary:darkgreen;
+}
 body{
     margin: 0;
     padding:0;
@@ -45,7 +48,6 @@ body{
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
 color:darkgreen;
 }
-
 .swiper .swiper-pagination-bullet-active{
   background:#fff;
 }
@@ -123,7 +125,6 @@ p {
     padding-top: 150px;
   }
 }
-
 .header {
   background-color: #fff;
   position: fixed;
@@ -134,10 +135,7 @@ p {
 padding-left: 4rem;
   position: sticky;
   width: 80%;
-  
-  
 }
-
 .header ul {
   margin: 0;
   padding: 0;
@@ -149,14 +147,13 @@ padding-left: 4rem;
 }
 ul li ul.dropdown li {
     display: block;
-    font-family: 'Montserrat';
-    
-}ul li ul.dropdown{
+    font-family: 'Montserrat'; 
+}
+ul li ul.dropdown{
     width:100%;
     position:absolute;
     z-index:999;
     display:none;
-   
 }
 ul.dropdown li a:hover{
     color:black;
@@ -169,8 +166,6 @@ ul li:hover ul.dropdown{
   display: block;
   padding: 4px 20px 4px 20px;
   text-decoration: none;
-  
- 
 }
 .header li a:hover,
 .header .menu-btn:hover {
@@ -275,4 +270,131 @@ ul li:hover ul.dropdown{
   .section-split a {
     width: 50%;
   }
+}
+/**********************sevice*************************/
+.service{
+  background: darkgreen;
+  color: #fff;
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 4.7rem;
+padding: auto;
+font-size: 2.5rem;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+/********************pharmacy**********************/
+.pharmhead
+{
+  font-size: 1.8rem;
+  padding: 3rem 8rem;
+  font-weight: 900;
+  text-align: center;
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+
+}
+.infobox{
+  width:390px;
+  
+  position:relative;
+  background: linear-gradient(to right,rgb(131, 214, 89),green);
+  padding: 3rem;
+  font-weight: 600;
+
+}
+/*************************form*************/
+.formbox{
+  width:390px;
+  position:relative;
+  background:linear-gradient(lightgrey,rgb(210, 240, 192));
+  padding: 5px;
+  overflow: hidden;
+}
+.btnbox{
+  width:220px;
+  margin:35px auto;
+  position:relative;
+  box-shadow: 0 0 20px 9px darkgrey;
+  border-radius: 30px;
+}
+.togglebtn{
+cursor:pointer;
+outline:none;
+padding:15px 10px ;
+padding-left: 2rem;
+border:0;
+position: relative;
+background: transparent;
+}
+#btn{
+  top:0;
+  left:0;
+  position: absolute;
+  width:110px;
+  height:100%;
+  background: linear-gradient(to right,rgb(131, 214, 89),green);
+  border-radius: 30px;
+  transition:.5s;
+}
+.input-group{
+  top:180px;
+  position: absolute;
+  width:280px;
+  transition: .5s;
+}
+.input-field{
+  width:100%;
+  padding:10px 0;
+  margin:3px 18px;
+  outline:none;
+  background: transparent;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid darkgreen;
+}
+.submitbtn{
+  width:85%;
+  padding:10px 30px;
+  cursor: pointer;
+  display: block;
+  margin:2rem;
+  background: linear-gradient(to right,rgb(131, 214, 89),green);
+  border: 0;
+  outline:none;
+  border-radius: 30px;
+}
+.checkbox{
+  margin:30px 5px 30px 0;
+}
+#login{
+  left:50px;
+}
+#register{
+  left:450px;
+}
+#uploadinfo{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 3rem;
+}
+/*---------------------------footer---------------------------*/
+#footer {
+  background:rgb(0, 64, 0);
+  color: white;
+  
+  padding: 6rem;
+ 
+}
+#footer p{
+  text-align: center;
+  margin-top: 1rem ;
+  word-spacing: 3px;
+  font-size: large;
+  
 }
